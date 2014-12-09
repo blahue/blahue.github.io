@@ -1,0 +1,518 @@
+html,body,div,span,applet,object,iframe, h1,h2,h3,h4,h5,h6,p,blockquote,pre, a,abbr,acronym,address,big,cite,code, del,dfn,em,img,ins,kbd,q,s,samp, small,strike,strong,sub,sup,tt,var, b,u,i,center, dl,dt,dd,ol,ul,li, fieldset,form,label,legend, table,caption,tbody,tfoot,thead,tr,th,td, article,aside,canvas,details,figcaption,figure, footer,header,hgroup,menu,nav,section,summary, time,mark,audio,video {
+margin:0;
+padding:0;
+border:0;
+outline:0;
+} 
+article, aside, figure, footer, header, hgroup, menu, nav, section { display: block; } 
+
+body{
+	background-color:#FFF;
+	margin:0px;
+	padding:0px
+}
+
+
+#wrapper {
+	width:960px;
+	margin:auto;
+}
+
+nav {
+	background-color: #4BBD8D;
+	height: 75px;
+	margin: 50px auto 25px auto;
+	position: relative;
+}
+
+#banner {
+	background-color: #378F6B;
+	height: 50px;
+	margin: 12.5px 0px 0px 0px;
+	position: absolute;
+	width: 960px;
+}
+
+#topstitching {
+	background-image: url(images/Bottom-Stitching2.png);
+	height: 30px;
+	width: 990px;
+	background-repeat: no-repeat;
+	margin: 0px 0px 0px -15px;
+	position: absolute;
+}
+
+#topstitching2 {
+	background-image: url(images/Bottom-Stitching2.png);
+	height: 30px;
+	width: 990px;
+	background-repeat: no-repeat;
+	margin: 35px 0px 0px 0px;
+	position: absolute;
+	left: 0px;
+}
+
+#logobackground {
+	background-color: #4BBD8D;
+	height: 150px;
+	width: 160px;
+	margin: 0px 0px 0px 400px;
+	float: left;
+	position: absolute;
+	top: -38px;
+}
+
+#logo {
+	background-image: url(images/B-Logo.png);
+	height: 130px;
+	width: 140px;
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+}
+
+li {
+	font-size: 24px;
+}
+
+#menu {
+		
+list-style-type: none;
+}
+
+#menu li a {
+	font-family: 'Arbutus Slab', serif;
+	display: block;
+	text-decoration: none;
+	float: left;
+	margin: 10px 100px 0px 50px;
+	color: #9FD3B8;
+}
+
+#menu li a:visited {
+	color:#FFF;
+}
+
+
+#menu li a:hover {
+	color: #4BBD8D;
+}
+
+#menu li a:active {
+	background-color: #4BBD8D;
+	color: #378F6B;
+}
+
+#menu2 {
+	list-style-type: none;
+}
+
+#menu2 li a {
+	display: block;
+	text-decoration: none;
+	margin: 10px 60px 0px 100px;
+	float: right;
+	color: #9FD3B8;
+}
+
+#menu2 li a:visited {
+	color:#FFF;
+}
+
+#menu2 li a:hover {
+	color: #4BBD8D;
+}
+
+#menu2 li a:active {
+	background-color: #4BBD8D;
+	color: #378F6B;
+}
+
+#menu3 {
+	list-style-type: none;
+
+}
+
+#menu3 li a {
+	display: block;
+	text-decoration: none;
+	margin: 10px 0px 10px 50px;
+	float: left;
+	color:#FFF;
+	font-size:16px;
+}
+
+#menu3 li a:visited {
+	color:#9FD3B8;
+}
+
+#menu3 li a:hover {
+	color: #4BBD8D;
+}
+
+#menu3 li a:active {
+	color:#9FD3B8;
+	font-style:italic;
+}
+
+.clear {
+	clear:both;
+	list-style-type: none;
+	list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+#mainimageborder {
+	background-color:#4BBD8D;
+	height:350px;
+	width:410px;
+	margin: 50px 15px 0px 150px;
+	float:left;
+}
+
+#subimageborder1 {
+	background-color:#378F6B;
+	;
+	height:150px;
+	width:200px;
+	margin: 50px 150px 0px 0px;
+	float:right;
+}
+
+#subimageborder2 {
+	background-color:#378F6B;
+	height:150px;
+	width:200px;
+	margin: 50px 150px 0px 0px;
+	float:right;
+}
+
+#mainimage {
+	background-image:url(portfolio%20images/mainimage.gif);
+	height: 325px;
+	width: 385px;
+	margin: 12.5px 12.5px 12.5px 12.5px;
+}
+
+#subimage1 {
+	background-image:url(portfolio%20images/portfolio-image-1.gif);
+	height: 125px;
+	width: 175px;
+	margin: 12.5px 12.5px 12.5px 12.5px;
+}
+
+#subimage2 {
+	background-image:url(portfolio%20images/portfolio-image-5.gif);
+	height: 125px;
+	width: 175px;
+	margin: 12.5px 12.5px 12.5px 12.5px;
+}
+
+.clear {
+	clear:both;
+}
+
+#sidebar1 {
+	background-color:#378F6B;
+	height:250px;
+	width:250px;
+	margin: 50px 25px 50px 150px;
+	float:left;
+}
+
+h1 {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 16px;
+	color: #FFF;
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+
+p {
+	font-family: 'Antic Didone', serif;
+	font-size: 14px;
+	color: #FFF;
+	margin: 5px 0px 10px 20px;
+}
+
+#sidebar2 {
+	background-color:#4BBD8D;
+	height:250px;
+	width:350px;
+	margin: 50px 150px 50px 25px;
+	float:right;
+}
+
+h2 {
+	font-family: 'Antic Didone', serif;
+	font-size: 14px;
+	color: #FFF;
+	height: 50px;
+	width: 150px;
+	margin: 30px 10px 0px 190px;
+}
+
+#selfimage {
+	background-image: url(images/selfie.png);
+	height: 188px;
+	width: 150px;
+	margin: 30px 0px 0px 25px;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+#backgroundblock1 {
+	background-color: #4BBD8D;
+	height: 500px;
+	width: 840px;
+	margin: 100px 0px 50px 60px;
+	position: relative;
+}
+
+#backgroundblock2 {
+	background-color:#378F6B;
+	height: 500px;
+	width: 840px;
+	margin: 100px 0px 50px 60px;
+	position: relative;
+}
+
+#backgroundblock3 {
+	background-color:#378F6B;
+	height: 800px;
+	width: 840px;
+	margin: 100px 0px 50px 60px;
+	position: relative;
+}
+
+#imageborder1 {
+	background-color: #378F6B;
+	height: 150px;
+	width: 125px;
+	margin: 25px 0px 0px 25px;
+	position: absolute;
+	left: 0px;
+}
+
+#image1 {
+	background-image: url(images/me%20and%20danny.png);
+	height: 125px;
+	width: 100px;
+	margin: 12.5px 0px 0px 12.5px;
+}
+
+#imageborder2 {
+	background-color: #378F6B;
+	height: 150px;
+	width: 125px;
+	margin: 150px 0px 0px 75px;
+	float: left;
+	position: absolute;
+	top: 165px;
+	left: 15px;
+}
+
+#image2 {
+	background-image: url(images/me%20and%20friends.png);
+	height: 125px;
+	width: 100px;
+	margin: 12.5px 0px 0px 12.5px;
+}
+
+#imageborder3 {
+	background-color: #378F6B;
+	height: 150px;
+	width: 125px;
+	float: left;
+	position: absolute;
+	top: 150px;
+	left: 165px;
+}
+
+#image3 {
+	background-image:url(images/me%20and%20family.png) ;
+	height:125px;
+	width:100px;
+	margin: 12.5px 0px 0px 12.5px;
+}
+
+h1.sub {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 32px;
+	color: #FFF;
+	text-align: center;
+	margin: 25px 0px 0px 300px;
+}
+
+p.subheading {
+	font-family: 'Antic Didone', serif;
+	font-size: 16px;
+	color: #FFF;
+	height: 400px;
+	width: 500px;
+	margin: 50px 25px 0px 0px;
+	float: right;
+}
+
+h1.sub2 {
+	font-family: 'Arbutus Slab', serif;
+	font-size: 32px;
+	color: #FFF;
+	text-align: center;
+	margin: 25px 0px 0px 0px;
+}
+
+p.subheading2 {
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+	color: #FFF;
+	text-decoration:underline;
+	margin: 25px 0px 25px 50px;
+}
+
+p.subheading3 {
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+	color: #FFF;
+	margin: 25px 0px 0px 100px;
+	float:left;
+}
+
+p.subheading4 {
+	font-family: 'Antic Didone', serif;
+	font-size: 24px;
+	color: #FFF;
+	margin: 25px 0px 0px 200px;
+	float: left
+}
+
+#contactform {
+	margin: 0px 0px 0px 50px;
+	width: 600px;
+}
+
+#portfolioimage1 {
+	background-image:url(portfolio%20images/portfolio-image-1.gif);
+	height: 125px;
+	width: 175px;
+	margin: 50px 50px 50px 55px;
+	float: left;
+	
+}
+
+#portfolioimage2 {
+	background-image:url(portfolio%20images/portfolio-image-2.gif);
+	height: 125px;
+	width: 175px;
+	margin: 50px 50px 50px 55px;
+	float:left;
+}
+
+#portfolioimage3 {
+	background-image:url(portfolio%20images/portfolio-image-3.gif);
+	height: 125px;
+	width: 175px;
+	margin: 50px 50px 50px 55px;
+	float:left;
+}
+
+#portfolioimage4 {
+	background-image:url(portfolio%20images/portfolio-image-4.gif);
+	height: 125px;
+	width: 175px;
+	margin: 50px 50px 50px 50px;
+	float:left;
+}
+
+#portfolioimage5 {
+	background-image:url(portfolio%20images/portfolio-image-5.gif);
+	height: 125px;
+	width: 175px;
+	margin: 50px 50px 50px 50px;
+	float:left;
+}
+
+#portfolioimage6 {
+	background-image:url(portfolio%20images/portfolio-image-6.gif);
+	height: 125px;
+	width: 175px;
+	margin: 50px 50px 50px 50px;
+	float:left;
+}
+
+#portfolioimage7 {
+	background-image:url(portfolio%20images/portfolio-image-7.gif);
+	height: 175px;
+	width: 125px;
+	margin: 50px 75px 50px 75px;
+	float:left;
+}
+
+#portfolioimage8 {
+	background-image:url(portfolio%20images/portfolio-image-8.gif);
+	height: 150px;
+	width: 150px;
+	margin: 50px 75px 50px 65px;
+	float:left;
+}
+
+#portfolioimage9 {
+	background-image:url(portfolio%20images/portfolio-image-9.gif);
+	height: 175px;
+	width: 125px;
+	margin: 50px 50px 50px 65px;
+	float:left;
+}
+
+
+
+
+footer {
+	background-color: #4BBD8D;
+	height: 50px;
+	margin: 25px 0px 50px 0px;
+	position: relative;
+}
+
+#banner2 {
+	background-color: #378F6B;
+	height: 30px;
+	margin: 10px 0px 0px 0px;
+	position: absolute;
+	width: 960px;
+}
+
+#contact {
+	background-color: #4BBD8D;
+	height: 100px;
+	width: 100px;
+	margin: 0px 0px 0px 430px;
+	position: absolute;
+	top: -25px;
+	left: 0px;
+}
+
+#bottomstitching {
+	background-image: url(images/Bottom-Stitching2.png);
+	height: 30px;
+	width: 990px;
+	margin: 5px 0px 0px -15px;
+	background-repeat: no-repeat;
+}
